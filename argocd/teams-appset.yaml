@@ -21,7 +21,7 @@ spec:
           releaseName: '{{path.basename}}'
           valueFiles:
           - '../../{{path}}/values.yaml'
-        repoURL: 'https://github.com/<username>/control-plane'
+        repoURL: 'https://github.com/umeshkaul/control-plane'
         path: charts/team
         targetRevision: HEAD
       destination:
